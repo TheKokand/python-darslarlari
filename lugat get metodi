@@ -1,0 +1,10 @@
+telefonlar = {
+    'ali':'iphone x',
+    'vali':'galaxy s9',
+    'olim':'mi 10 pro',
+    'orif':'nokia 3310'
+    }
+
+phone = telefonlar.get('hasan','Bunday ism mavjud emas')
+print(phone)
+print(f"Hasanning telefoni {phone}")
