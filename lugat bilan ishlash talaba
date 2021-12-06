@@ -1,0 +1,4 @@
+talaba={'ism':'murod olimov', 'yosh':'20', 't_yil':'2000'}
+print(f"{talaba['ism'].title()}, \
+ {talaba['t_yil']}-yilda tu'gilgan,\
+ {talaba['yosh']} yoshda")
