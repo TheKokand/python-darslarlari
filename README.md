@@ -1,1 +1,1 @@
-# python-darslarlari
+# python-darslar
