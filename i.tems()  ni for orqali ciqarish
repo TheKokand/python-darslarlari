@@ -1,0 +1,10 @@
+talaba_0={
+  'ism':'alijon',
+  'familiya':"aliyev",
+  'yosh':22,
+  'fakultet':'matematika',
+  'kurs':4
+  }
+for kalit, qiymat in talaba_0.items():
+  print(f"kalit {kalit}")
+  print(f"qiymat {qiymat}\n") 
