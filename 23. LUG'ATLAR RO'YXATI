@@ -1,0 +1,36 @@
+car_0={
+    'model':'lasetti',
+    'rangi':'oq',
+    'yil':'2018',
+    'narh':'13000',
+    'km':'50000',
+    'korobka':'avtomat' 
+    }    
+car_1={
+    'model':'nexia',
+    'rangi':'qora',
+    'yil':'2019',
+    'narh':'7000',
+    'km':'100000',
+    'korobka':'mexanika'
+    }
+car_2={
+    'model':'BMW',
+    'rangi':'qora',
+    'yil':'2020',
+    'narh':'120000',
+    'km':'0',
+    'korobka':'avtomat' 
+}
+car=car_0
+print(f"{car['model'].title()},\
+   {car['rangi']} rang,\
+   {car['yil']}-yil, {car['narh']}$")   
+car=car_1
+print(f"{car['model'].title()},\
+   {car['rangi']} rang,\
+   {car['yil']}-yil, {car['narh']}$")  
+car=car_2
+print(f"{car['model'].title()},\
+    {car['rangi']} rang, \
+    {car['yil']}-yil, {car['narh']}$") 
