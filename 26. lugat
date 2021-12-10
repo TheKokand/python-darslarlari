@@ -1,0 +1,26 @@
+malibus=[] #Malibular uchun bo'sh ro'yhat ocdik
+for n in range(10):
+  #har bir ynagi mashinlar uchun lugar yaratamiz
+  new_car={
+      'model':'malibu',
+      'rang':None,# rangi noaniq
+      'yil':2020,
+      'narh':None, # narhi belgilanmagan
+      'km':0,
+      'korobka':'avto'
+    }
+  malibus.append(new_car) # yangi lugatni ruyhatga quwamiz
+
+for malibu in malibus[:3]:
+  malibu['rang']='qizil'
+for malibu in malibus[3:10]:  
+  malibu['rang']='qora'
+for malibu in malibus[6:10]:
+  malibu['korobka']='mexanika'
+for malibu in malibus:
+  if malibu['korobka']=='avto':
+      malibu['narh']=40000
+  else:
+    malibu['narh']=35000    
+for malibu in malibus:
+  print(malibu)
