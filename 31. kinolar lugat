@@ -1,0 +1,9 @@
+kinolar={
+  'ali':['terminator','madagaskar', 'jumong'],
+  'vali':['cuqur','bembi','forsaj'],
+  'gani':['ickarida','simba','king kong']
+   }
+for ism, kinolar in kinolar.items():
+  print(f"{ism.title()} ning sevimli kinolari:") 
+  for kino in kinolar: 
+    print(kino.title()) 
