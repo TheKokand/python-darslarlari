@@ -1,0 +1,31 @@
+ilon={
+     'ism':'Ilon Maks',
+     'tyil':1950,
+     'vyil':1990,
+     'tjoy':'toronto'
+    }
+genri={
+      'ism':'Genri Ford',
+      'tyil':1850,
+      'vyil':1930,
+      'tjoy':'denwer'
+     }
+aleks={
+      'ism':'Aleks Mluyer',
+      'tyil':1770,
+      'vyil':1820,
+      'tjoy':'london'
+}     
+roman={
+       'ism':'Roman Deyl',
+       'tyil':1920,
+       'vyil':2002,
+       'tjoy':'parij' 
+}
+shaxslar=[ilon, genri, aleks, roman]
+for shaxs in shaxslar:
+  ism=shaxs['ism']
+  tyil=shaxs['tyil']
+  vyil=shaxs['vyil']
+  tjoy=shaxs['tjoy']
+  print(f"{ism} {tyil}-yilda {tjoy} da tavallud topgan.{vyil-tyil} yil umr kurgan.")
