@@ -1,0 +1,9 @@
+print("Kiritilgan sonni kvadratini qaytaruvchi dastur")
+savol="istalgan son kiriting: "
+savol+="(dasturni to'xtatish uchun 'exit' deb yozing):"
+while True: # abadiy sikl
+  qiymat=input(savol)
+  if qiymat=='exit':
+    break #siklni tuxtatish
+  else:
+    print(float(qiymat)**2)
