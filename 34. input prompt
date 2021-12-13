@@ -1,0 +1,3 @@
+ism=input("Ismingiz nima? ")
+savol=f"Salom, {ism.title()}. Yoshingiz nicchida? "
+yosh=input(savol)
