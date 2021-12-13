@@ -1,0 +1,13 @@
+ismlar=[]
+print("odamlar ruyhati tuzamiz")
+n=1 # kiritilgan ismlarni sanaw uchun
+while True:
+  savol=f"{1}- odamni kiriting "
+  ism=input(savol)
+  ismlar.append(ism)
+  javob=input("yana ism quwasizmi ha\yo'q ")
+  if javob=='ha':
+    n+=1
+    continue
+  else:
+    break  
