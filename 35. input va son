@@ -1,0 +1,6 @@
+ism=input("Ismingiz nima? ")
+savol=f"Salom, {ism.title()}. Yoshingiz necchida? "
+yosh=input(savol)
+yosh = int(yosh) #yoshni butun songa o'tkazamiz
+height=input("Bo'yingiz necci? ")
+height=float(height)
