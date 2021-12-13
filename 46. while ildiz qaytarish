@@ -4,7 +4,9 @@ savol += "(dasturni to'xtatish uchun 'exit' deb yozing): "
 
 while True:
     qiymat = input(savol)
-    if qiymat=='Exit':
+    if float(qiymat)<0:
+        continue
+    elif qiymat=='Exit':
         break
     else:
         ildiz = float(qiymat)**(0.5)
