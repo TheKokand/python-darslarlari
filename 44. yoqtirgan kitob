@@ -1,0 +1,9 @@
+savol="Sevgan kitobizi kiriting"
+savol+="(barcha kitoblarni kiritib bo'lgach 'stop' deb yozing)"
+qiymat= ''
+while True:
+  qiymat=input(savol)
+  if qiymat=='stop':
+     break
+  else:
+    print(savol)   
