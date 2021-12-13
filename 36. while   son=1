@@ -1,0 +1,4 @@
+son=1 # songa 1 qiymatini beramiz
+while son<=5: # toki on 5 dan kichik yoki teng
+  print(son, end=' ') # sonni ekranga ciqaramiz
+  son = son + 1 # songa 1 quwamiz 
