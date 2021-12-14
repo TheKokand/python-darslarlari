@@ -1,0 +1,5 @@
+ismlar=['xasan', 'xusan', 'abbos', 'mucci']
+print(f"Salom! {ismlar[0].title()} qalesan!!!")
+print(f"Salom! {ismlar[1].title()} qalesan!!!")
+print(f"Salom! {ismlar[2].title()} qalesan!!!")
+print(f"Salom! {ismlar[3].title()} qalesan!!!")
