@@ -1,0 +1,45 @@
+ mevalar=['olma', 'banan', 'anjir', 'nok'] # mevalar ruyxati (matn)
+narhlar=[8000, 15000, 5000, 17000] # narhlar ruyxati(sonlar)
+sonlar=['bir', 'ikki', 'uch', 4, 5] # sonlar va matnlar aralash ruyhati
+ismlar=[] # bo'sh ruyhati
+print("birinchi meva:", mevalar[0].title())
+print("ikkinchi meva:", mevalar[1].upper())
+print(narhlar[0]+narhlar[1])
+car_models=['toyota', 'tesla', 'kia', 'bmw', 'ford']
+print(car_models[-1])#listninf oxirgi elementiga -1 orqali murojat qildik
+#elementlarni uzgartirish
+narhlar[0]=10000
+narhlar[1]=20000
+narhlar[3]=narhlar[2]+5000
+print(narhlar)
+#append() yangi ruyhat quwiw
+mevalar.append('xurmo')
+print(mevalar)
+#bosh ruyhat yaratamiz
+cars=[]
+cars.append('tico')
+cars.append('matiz')
+cars.append('damas')
+print(cars)
+cars.insert(0, 'malibu')
+print(cars)
+cars.insert(3, 'bmw')
+print(cars)
+# elementlarni o'chirish
+del mevalar[1]
+print(mevalar)
+# qiymati buyicha ocirish
+mevalar.remove('nok')
+print(mevalar)
+#hayvonlar
+hayvonlar=['ot','it','mushuk', 'mol', 'ot',  'sigir', 'ot' ]
+hayvonlar.remove('ot')
+print(hayvonlar)
+hayvonlar.remove('ot')
+print(hayvonlar)
+#elementlarni sogirib olish
+#.pop(indeks)
+bozorlik=['yog','un', 'margarin', 'piyoz', 'banan', 'sir']
+mahsulot=bozorlik.pop(1)
+print("Men "+mahsulot+"ini sotib oldim.")
+print("Sotib olinmagan muhsulotlar"  , bozorlik)
