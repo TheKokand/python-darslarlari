@@ -1,2 +1,8 @@
 salom="Hello World"
 print(salom)
+xabar='Assalom aleykum'
+print(xabar)
+xabar='qalesan'
+print(xabar)
+classs=5
+print(classs)
