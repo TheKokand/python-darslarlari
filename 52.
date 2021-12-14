@@ -1,0 +1,9 @@
+savat=[]
+while True:
+  mahsulot=input("Mahsulot nomini kitirng: ")
+  savat.append(mahsulot)
+  javob=input("yana mahsulot kiritasizmi ha\yo'q\n")
+  if javob!='ha':
+     break
+print(savat)
+
