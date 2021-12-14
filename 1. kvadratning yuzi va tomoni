@@ -1,0 +1,4 @@
+tomoni=125
+yuzi=125**2
+primetri=125*4
+print("yuzi: ", yuzi, "\nprimetri: ", primetri)
