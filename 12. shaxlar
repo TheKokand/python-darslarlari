@@ -1,0 +1,8 @@
+t_shaxslar=['buxoriy', 'termeziy', 'muslim']
+z_shaxslar=['geyts', 'ilon', 'bezes']
+#Yuqoridagi ro'yxatlarning har biridan bittadan qiymatni sug'urib olib (.pop()), quyidagi ko'rinishda chiqaring:
+print(f"\nMen tarixiy shaxslardan {t_shaxslar.pop(1)} bilan,\n\
+zamonaviy shaxslardan esa {z_shaxslar.pop(0)} bilan\n\
+suhbat qilishni istar edim\n")
+print(t_shaxslar)
+print(z_shaxslar)
