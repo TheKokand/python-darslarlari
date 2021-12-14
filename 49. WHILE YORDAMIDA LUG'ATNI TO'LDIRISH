@@ -1,0 +1,14 @@
+print("Do'stlaringiz yoshini saqlemiz.")
+dostlar={}
+ishora=True
+while ishora:
+  ism=input("Do'stingizni ismini kiriting: ")
+  yosh=input(f"{ism.title()}ning yoshini kiriting: ")
+  dostlar[ism]=int(yosh) # ism kalit, yosh qiymat
+
+  javob=input("Yana ism kiritaszimi ha\yo'q")
+  if javob=="yo'q":
+     ishora=False
+
+for ism, yosh in dostlar.items():
+    print(f"{ism.title()} {yosh} yoshda")
