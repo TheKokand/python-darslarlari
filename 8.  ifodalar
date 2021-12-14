@@ -1,0 +1,6 @@
+a=float(input("birinchi sonni kiriting: "))
+b=float(input("ikkinchi sonni kiriting: "))
+print(f"{a}+{b}=", a+b)
+print(f"{a}-{b}=", a-b)
+print(f"{a}x{b}=", a*b)
+print(f"{a}/{b}=", a/b)
