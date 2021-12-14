@@ -1,0 +1,2 @@
+yosh=int(input("yoshingiz necchida:\n>>>>"))
+print(f"siz {2021-yosh} - yili tuglgansiz")
