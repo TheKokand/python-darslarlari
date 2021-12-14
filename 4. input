@@ -1,0 +1,2 @@
+ism=input("ismingizni kiriting:\n>>>")
+print("Assalom aleykum"+' '+ism.title())
