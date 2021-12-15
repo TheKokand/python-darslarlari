@@ -1,0 +1,128 @@
+#if-elif-else KETMA-KETLIGI
+#yosh=int(input("Yoshingiz niccida: "))
+#if yosh<=4:
+#  narh=0
+#elif yosh<=12:
+#  narh=5000
+#else:
+#  narh=10000
+#print(f"Siz uchun chipta {narh} so'm")  
+#  
+#yosh=int(input("Yoshingiz niccida: "))
+#if yosh<=4:
+#  narh=0
+#elif yosh<=12:
+#  narh=5000
+#elif yosh<65:
+#  narh=10000
+#else:
+#  narh=8000  
+#print(f"Siz uchun chipta {narh} so'm")  
+# if-elif-else zanjirida ham else qismi majburiy emas:
+#yosh=int(input("Yoshingiz niccida: "))
+#if yosh<=4:
+#  narh=0
+#elif yosh<=12:
+#  narh=5000
+#elif yosh<65:
+#  narh=10000
+#elif yosh>=65:
+#  narh=8000  
+#print(f"Siz uchun chipta {narh} so'm")  
+#AND, OR OPERATORLARI
+#kun=input("Bugun kun nima? ")
+#if kun.lower()=='shanba' or kun.lower()=='yakshanba':
+#  print("Bugun maza qilib dam olamiz!")
+#else:
+#  print("Bugun is kuni(")  
+#kun = input("Bugun kun nima? ")
+#harorat=float(input("Harorat qanday? "))
+#if kun.lower()=='yakshanba' and harorat>=30:
+#  print("Cho'milgani boramiz.")
+#elif kun.lower()=='yakshanba' and harorat<30:
+#  print("uyda qolamiz")  
+
+#BIR NECHTA SHARTLARNI KETMA-KET YOZISH
+#kun = input("bugun kun nima? ")
+#harorat=float(input("harorat qanday? "))
+#if (kun.lower()=='shanba' or kun.lower()=='yakshanba') and harorat>=30:
+#  print("Chumilishga boramiz")
+#elif (kun.lower()=='shanba' or kun.lower()=='yakshanba') and harorat<30:
+#  print("uyda qolamiz")
+
+# BOOLEAN MA'LUMOTLAR TURI
+#ovqat=15000 # 15000 ovqat yedi
+#choy=True # coy oldi
+#salat=False # salat olmadi
+#if choy and salat:
+#    ovqat=ovqat+10000
+#elif choy or salat:
+#    ovqat=ovqat+5000
+#print(f"Jami {ovqat} so'm")
+
+#SHARTLARNI KETMA-KET TEKSHIRISH
+#narh = 15000 # mijoz 15 so'mga ovqat oldi
+#choy = True # coy oldi
+#salat = False # salat olmadi
+#non = True # non oldi 
+#kompot = True # kompot oldi
+#assorti = True # Assorti olmadi
+#if choy:
+#  print("mijoz coy oldi")
+#  narh+=2000
+#if salat:
+#  print("mijoz salat oldi")
+#  narh+=5000
+#if non:
+#  print("mijoz non oldi")
+#  narh+=3000
+#if kompot:
+#  print("mijoz kompot oldi")
+#  narh+=5000
+#if assorti:
+#  print("mijoz assorti oldi")
+#  narh+=15000
+#print(f"jami {narh} so'm")          
+
+#RO'YXAT TARKIBINI TEKSHIRISH
+#in OPERATORI
+
+#menu=['osh', 'kabob', 'somsa', 'manti', 'norin', 'xasib']
+#ovqat=input("Nima ovqat yiysiz? ")
+#if ovqat.lower() in menu:
+#  print("Buyurtma qabul qilindi.")
+#else:
+#  print("Afsuski bundaya ovqat yuq.")  
+
+# not in OPERATORI
+#menu = ['osh','qazonkabob','shashlik','norin','somsa']
+#'manti' not in menu # menu da manti yo'qmi?
+
+#
+
+#menu = ['osh','qazonkabob','shashlik','norin','somsa']
+#ovqat = input('Nima ovqat yeysiz?>>>')
+#if ovqat.lower() not in menu:
+#    print('Afsuski bizda bunday ovqat yo\'q')
+#else:
+#    print('Buyurtma qabul qilindi.')
+
+# IKKI RO'YXATNI SOLISHTIRISH
+#menu=['osh', 'kabob', 'somsa', 'lagmon', 'manti', 'mastava']
+#buyurtma=['osh', 'kucha', 'somsa']
+#for taom in buyurtma:
+#  if taom in menu:
+#    print(f"{taom} menyuda bor")
+#  else:
+#    print(f"kecirasiz {taom} menyuda yuq.")  
+
+# RO'YXAT BO'SH EMASLIGINI TEKSHIRISH
+
+menu=['osh', 'lula kabob', 'vaju', 'kabob', 'manti', 'somsa']
+buyurtmalar=['osh', 'kabob', 'mastava', 'somsa']
+if buyurtmalar:
+  for taom in buyurtmalar:
+    if taom in menu:
+      print(f"{taom} menyuda bor")
+    else:
+      print(f"Kecirasiz, {taom} menyuda mavjud emas") 
