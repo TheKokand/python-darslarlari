@@ -1,0 +1,29 @@
+# for amaliyot
+# ismlar ruyhati tuzamiz
+ismlar = ['diana', 'aida', 'zilola', 'xumora', 'olim']
+for ism in ismlar:
+  print(f"salom {ism} qalesan")
+#sikl neca maratoba takrorlanganini 
+print(f"kod {len(ismlar)} marta takrorlandi\n")
+##
+#10 dan 100 gacha bo'lgan toq sonlar ro'yxatini tuzing. Ro'yxatning xar bir elementining kubini yangi qatordan konsolga chiqaring.
+print("10 dan 100 gacha bo'lgan toq sonlar ro'yxatini tuzing. Ro'yxatning xar bir elementining kubini yangi qatordan konsolga chiqaring.\n")
+toq_sonlar=list(range(11,100,2))
+for toq in toq_sonlar:
+  print(toq**3)
+####
+print("\n")
+print("Foydalanuvchidan 5 ta eng sevimli kinolarini kiritshni so'rang, va kinolar degan ro'yxatga saqlab oling. Natijani konsolga chiqaring.\n")
+print("5 ta eng sevimli kinolaringizni kiriting.")
+kinolar=[]
+for kino in range(5):
+  kinolar.append(input(f"{kino+1}- kinoni kiriting: "))
+print(f"{kinolar}\n")  
+####
+#Foydalanuvchidan bugun nechta odam bilan uchrashganini (suhbatlashganini) so'rang, va har bir suhbatlashgan odamning ismini birma-bir so'rab ro'yxatga yozing. Ro'yxatni konsolga chiqaring.
+print("Foydalanuvchidan bugun nechta odam bilan uchrashganini (suhbatlashganini) so'rang, va har bir suhbatlashgan odamning ismini birma-bir so'rab ro'yxatga yozing. Ro'yxatni konsolga chiqaring.\n")
+n_people=int(input("bugun necta odam bilan suhbatlashdingiz: "))
+odamlar=[]
+for ism in range(n_people):
+  odamlar.append(input(f"{ism+1}- suhbatdoshingizni ismini kiritng: "))
+print(odamlar)  
