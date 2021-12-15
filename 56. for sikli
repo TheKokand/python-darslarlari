@@ -1,0 +1,51 @@
+#for sikli
+mehmonlar=['ali', 'olim', 'odli','mucci']
+for mehmon in mehmonlar:
+  print(mehmon)
+  #
+ 
+  ###
+  mehmonlar=['ali', 'olim', 'odli','mucci']
+for mehmon in mehmonlar:
+  #
+  print(f"Hurmatli {mehmon} sizni 20 dekabr kuni bazmga taklif qilmaiz")
+  print("Hurmat bilan Palonchiyevlar") 
+  ##
+for mehmon in mehmonlar:
+  #
+  print(f"Hurmatli {mehmon} sizni 20 dekabr kuni bazmga taklif qilmaiz")
+print("Hurmat bilan Palonchiyevlar\n")   
+###
+mehmonlar=['ali', 'olim', 'odli','mucci']
+for mehmon in mehmonlar:
+  print(mehmon)
+  print(mehmonlar)
+###
+print("\n")  
+mehmonlar=['ali', 'olim', 'odli','mucci']
+for mehmon in mehmonlar:
+  print(mehmon)
+print(mehmonlar)
+###
+print("\n")
+#for YORDAMIDA SONLI RO'YXATLAR BILAN ISHLASH
+sonlar=list(range(10))
+for son in sonlar:
+  print(f"{son} ning kvadrati {son**2} ga teng")
+###
+print("\nfor yordamida yangi ro'yxat ham shakllantirish mumkin:\n")
+sonlar=list(range(10))
+kvadrati=[]
+for son in sonlar:
+  kvadrati.append(son**2)
+print(sonlar)
+print(kvadrati)  
+######
+#for va input()
+print("\n for va input\n")
+###
+dostlar=[]# bosh ruyhat
+print("5 ta ism kiriting")
+for ism in range(5):
+  dostlar.append(input(f"{ism+1} - ismni kiriting: "))
+print(dostlar)  
