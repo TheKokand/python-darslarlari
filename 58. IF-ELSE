@@ -1,0 +1,50 @@
+print("if else\n")
+# Avtolar ruyhat tuzamiz
+avtolar=['toyota', 'tesla', 'bmw', 'mazda', 'gelenwagen']
+for avto in avtolar: # avtolar ichidagi har bir avt uchun
+  if avto=='bmw':
+    print(avto.upper())# bmw uchun kotta harf hammasi
+  else:
+    print(avto.title())
+###
+print("\nTrue and False\n")
+
+#
+print("\nMAtnlarni soliwtirish\n")
+#
+print("\nQIYMATLARNING TENG EMASLIGINI TEKSHIRISH\n")
+#
+#ism=input("Ismingizni kiriting: ")
+#if ism.lower()!='ali':
+#  print(f"uzr {ism} biz Alini kutyapmiz")
+#else:
+#  print(f"Qalesan Ali")  
+#SONLARNI SOLISHTIRISH
+#print("\SONLARNI SOLISHTIRISH\n")
+#
+#javob=float(input("12*6 necciga teng? "))
+#if javob!=72:
+#   print("XATO\n")
+#18 dan kotta
+#yosh=int(input("Yoshingizni kiriting: "))
+#if yosh>=18:
+#  print("Xush kelibsiz")
+#else:
+#  print("kiris mumkin emas")  
+#print("\nlogin\n")
+#login=input("yangi login kiriting.")
+#if len(login)<=5:
+#  print("login 5 ta simvoldan kotta boliwi kere")
+#else:
+#  print("yangi login tasdiqlandi")      
+#print("tugilan yilingizni kiriting")
+#t_yil=int(input(">>>"))
+#if 2021-t_yil>=18:
+#  print("xush kelibsiz")
+#else:
+#  print("kirish mumkin emas")  
+#print("BIR QATOR if/else")
+#yosh=int(input("yoshingzini kiriting: "))
+#if yosh>65: print("siz covid-19 risk guruhidasiz")
+x, y = 25, 50 # x=25, y=50
+print("x>y") if x>y else print("x<y")
