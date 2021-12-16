@@ -1,0 +1,7 @@
+# otam (onam, akam, ukam, va hokazo) degan lug'at yarating va lug'atga shu inson haqida kamida 3 ta m'alumot kiriting (ismi, tu'gilgan yili, shahri, manzili va hokazo). Lug'atdagi ma'lumotni matn shaklida konsolga chiqaring: Otamning ismi Mavlutdin, 1954-yilda, Samarqand viloyatida tug'ilgan
+otasi={'ismi':'ali aliyev', 't_yil':1975, 'shahri':'osh', 'manzil':'aliobot 35'}
+onasi={'ismi': 'olima aliyva', 't_yil':1980, 'shahri':'osh', 'manzil':'alioot 35'}
+opasi={'ismi':'muhlisa sulaymonova', 't_yil':2002, 'shahri':'qoqon', 'manzil':'ceremuwka 87'}
+print(f"Otasining ismi {otasi['ismi'].title()} {otasi['t_yil']}-yilda , {otasi['shahri']}da tugilgan")
+print(f"Onasining ismi {onasi['ismi'].title()} {onasi['t_yil']}-yilda , {onasi['shahri']}da tugilgan")
+print(f"Opasining ismi {opasi['ismi'].title()} {opasi['t_yil']}-yilda , {opasi['shahri']}da tugilgan")
