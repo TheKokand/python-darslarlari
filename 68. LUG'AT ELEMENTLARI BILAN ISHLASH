@@ -1,0 +1,71 @@
+# .items() METODI
+# Ushbu metod yordamida lug'at ichidagi barcha kalit-qiymat juftliklarini ko'rishimiz mumkin.
+talaba_0={'ismi':'ali', 'fakultet':'informatika', 't_yil':'1995'}
+print(talaba_0.items())
+
+# Bu metodni to'g'ridan-to'g'ri emas, for tsikli yordamida chaqirish orqali lug'atdagi barcha elementlarni tushunarliroq shaklda ko'rishimiz mumkin.
+for kalit, qiymat in talaba_0.items():
+  print(f"kalit: {kalit}")
+  print(f"qiymat: {qiymat}\n")
+
+# 
+telefonlar={
+  'ali':'iphone x',
+  'vali':'samsung',
+  'gani':'mi',
+  'olim':'vivo',
+  'vika':'oppo',
+  'xasan':'vivo',
+  'odil':'vivo'
+}
+for k, q in telefonlar.items():
+  print(f"{k}ning telefoni {q}")
+
+# .keys() METODI
+# Agar lug'atdagi kalit so'zlarni ko'rish talab qilinsa, .keys() metodidan foydalanishimiz mumkin.
+mahsulotlar={
+  'olma':10000,
+  'nok':15000,
+  'banan':17000,
+  'uzum':12000
+} 
+print(mahsulotlar.keys())
+
+print("\nDo'kondagi mahsulotlar")
+for mahsulot in mahsulotlar.keys():
+  print(mahsulot.title())
+# Yuqoridagi kodimizda, for tsiklida .keys() metodini ishlatmasak ham huddi shu natija chiqadi.
+
+
+print("\nDo'kondagi mahsulotlar")
+for mahsulot in mahsulotlar:
+  print(mahsulot.title())
+
+# for tsikli va if sharti yordamida lug'atdagi biror qiymatlarni alohida chiqarishimiz ham mumkin:
+bozorlik=['anor', 'uzum', 'un', 'nok']
+for mahsulot in mahsulotlar:
+  if mahsulot in bozorlik:
+    print(f"{mahsulot.title()} ning narxi {mahsulotlar[mahsulot]} so'm")
+for tovar in bozorlik:
+  if tovar not in mahsulotlar:
+    print(f"iltimos dokonga {tovar} olib keling")    
+
+# LUG'AT ELEMENTLARINI TARTIB BILAN CHIQARISH
+print("dokonimizdagi mahsulotlar")
+for mahsulot in sorted(mahsulotlar):
+  print(mahsulot.title())
+
+# .values() METODI
+# Agar lug'atdagi qiymatlarni chiqarish talab qilinsa .values() metodidan foydalanishimiz mumkin.
+for mahsulot in mahsulotlar.values():
+  print(mahsulot)
+# 
+print(telefonlar.values())  
+print("foydalanuvchilar quyidagi telefonlarni ishlatishadi")
+for tel in telefonlar.values():
+  print(tel)
+
+# Yuqoridagi usul bilan qiymatlarni chiqrganimizda, lug'atdagi barcha qiymatlar chiqib keladi. Agar, biror qiymat ko'p marta qaytarilsa, konsolga ham ko'p marta chiqib keladi.
+# Buning oldini olish uchun set() funktsiyasidan foydalanishimiz mumkin.
+for tel in set(telefonlar.values()):
+  print(tel)
