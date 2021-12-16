@@ -1,0 +1,5 @@
+# Oila a'zolaringizning sevimli taomlari lug'atini tuzing. Lug'atda kamida 5 ta ism-taom jufltigi bo'lsin. Kamida uch kishining sevimli taomini konsolga chiqaring: Alining sevimli taomi osh
+sevimli_taomlar={'ali':'osh', 'mucci':'dimlama', 'olim':'somsa', 'vika':'borsh', 'komil':'kabob'}
+print(f"Alining sevimli toami {sevimli_taomlar['ali']}")
+print(f"Muccining sevimli toami {sevimli_taomlar['mucci']}")
+print(f"Vikaning sevimli toami {sevimli_taomlar['vika']}")
