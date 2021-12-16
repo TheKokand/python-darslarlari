@@ -1,0 +1,55 @@
+#LUG'AT BILAN ISHLASH
+
+#car_0={'model':'ferrari', 'rang':'qizil'}
+#print(car_0['model'])
+#print(car_0['rang'])
+#print(car_0)
+
+#
+
+#talaba_0={'ismi': 'olim olimov', 'yosh':'20', 't_yil':'2001'}
+#print(f"{talaba_0['ismi'].title()},\
+#    {talaba_0['t_yil']}- yilda tugilgan,\
+#    {talaba_0['yosh']} da.")
+
+# LUG'AT BILAN ISHLASH
+#talaba_0['kurs']=4    
+#talaba_0['fakultet']='informatika'
+#print(talaba_0)
+
+# BO'SH LUG'AT
+
+#talaba_1={}
+#talaba_1['ismi']='ali aliyev'
+#talaba_1['t_yil']=2000
+#talaba_1['yosh']=21
+#talaba_1['kurs']=4
+#talaba_1['fakultet']='iqtisod'
+#print(talaba_1)
+
+# KALIT SO'Z-QIYMAT JUFTLIGINI O'CHIRISH
+
+#del talaba_1['yosh']
+#print(talaba_1)
+
+
+# LUG'ATNI QATORLARGA BO'LIB YOZISH
+
+telefonlar={
+  'ali':'iphona XS',
+  'olim':'oppo',
+  'vika':'vivo',
+  'mucci':'samsung',
+  'komil':'xiaomi'
+}
+print(telefonlar)
+
+# .get() METODI
+
+phone=telefonlar['ali']
+print(f"Alining telefoni {phone}")
+
+phone=telefonlar.get('alim', 'bunfay ism yuq')
+print(phone)
+phone=telefonlar.get('hasan')
+print(phone)
