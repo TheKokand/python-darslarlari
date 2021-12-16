@@ -1,0 +1,8 @@
+# ingliz uzbel lugat
+ing_uz={'apple':'olma', 'banana':'banan', 'melon':'qovun','watermelon':'tarvuz', 'apricot':'o\'rik'}
+kalit=input("inglizcha so'z kiriting ").lower()
+tarjima=ing_uz.get(kalit)
+if tarjima==None:
+  print(f"{kalit} bu so'z xali kiritilmagan.")
+else:
+  print(f"{kalit} ning uzbek tiliga tarjimasi {ing_uz[kalit]} ")  
