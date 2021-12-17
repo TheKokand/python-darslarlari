@@ -1,0 +1,10 @@
+# Davlatlar va ularning poytaxtlari lug'atini tuzing. Avval lug'atdagi davlatlarni, keyin poytaxtlarni alohida-alohida, alifbo ketma-ketligida konsolga chiqaring.
+davlatlar={
+        'uzbekiston':'toshkent',
+        'kirgiziston':'bishkek',
+        'turkiya':'istanbul',
+        'kazakiston':'nur-sulton',
+        'ozarbayjon':'boku'
+      }
+for kalit, qiymat in sorted(davlatlar.items()):
+  print(f"{kalit.title()} ning poytahti {qiymat.title()}")       
