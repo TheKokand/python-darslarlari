@@ -1,0 +1,15 @@
+# Python izohli lug'atini yarating va lug'atga kamida 10 ta so'z qo'shing. Lug'atdagi har bir kalit va qiymatni for tsikli yordamida, alifbo ketma-ketligida chiroyli qilib konsolga chiqaring.
+piton={
+      'integer':'butun sonlar',
+      'float':'onlik sonalar',
+      'string':'matn',
+      'for':'sil operatori',
+      'if':'agarda',
+      'print':'chop etish',
+      'value':'qiymat',
+      'keys':'kalit',
+      'in':'ichida',
+      'not in':'ichida emas'
+      }
+for lugat, qiymat in sorted(piton.items()):
+  print(f"{lugat} - {qiymat}")
