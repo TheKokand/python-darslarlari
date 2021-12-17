@@ -1,0 +1,32 @@
+# NESTING
+car0={
+    'model':'tesla',
+    'rang':'qizil',
+    'yil':2020,
+    'km':5000,
+    'dvigatel':'electr'
+}
+car1={
+    'model':'toyota mirai',
+    'rang':'havorang',
+    'yil':2021,
+    'km':1100,
+    'dvigatel':'vodorod'
+}
+car2={
+    'model':'bmw',
+    'rang':'qora',
+    'yil':2019,
+    'km':20000,
+    'dvigatel':'benzin'
+}
+cars=[car0, car1, car2]
+for car in cars:
+  print(f"{car['model'].title()},\
+      {car['rang']} rang, \
+      yili {car['yil']}, {car['km']} yurgan,\
+       dvigatel turi {car['dvigatel']}.")
+print(cars[0])    
+print(cars[0]['model'])
+print(f"{cars[2]['rang'].title()} "
+      f"{cars[2]['model']}")
