@@ -1,0 +1,11 @@
+# LUG'AT ICHIDA RO'YXAT
+dasturchilar={
+    'ali':['pyhton', 'c++'],
+    'olim':['java', 'php'],
+    'odil':['js', 'html and css'],
+    'vika':['jango', 'laravel']
+}
+for ism, tillar in dasturchilar.items():
+  print(f"{ism} quyidagi dasturlash tillarni biladi.")
+  for til in tillar:
+    print(til.upper())
