@@ -1,0 +1,12 @@
+# while tsikli yordamida dasturni to'xtatish imkoniyatini foydalanuvchiga berishimiz mumkin.
+print("Kiritilgan sonni kvadratini qaytaruvchi dastur.")
+savol='Istalgan son kiriting: '
+savol+= "Dasturni tuxtatish uchun 'exit' deb yozing 
+"
+ishora=True
+while ishora:
+  qiymat=input(savol)
+  if qiymat == 'exit':
+    break
+  else:
+    print(float(qiymat)**2)  
