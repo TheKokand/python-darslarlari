@@ -1,0 +1,30 @@
+# break
+sonlar=list(range(10))
+for son in sonlar:
+  if son==5:
+    break
+  else:
+    print(f"{son} ning kavadrati {son**2} ga teng.")  
+
+# CONTINUE OPERATORI
+print("\n")
+sonlar=list(range(10))
+for son in sonlar:
+  if son==5:
+    continue
+  else:
+    print(f"{son} ning kavadrati {son**2} ga teng.")  
+
+# 
+print("\n")
+son = 0
+while son<=10:
+  son+=1
+  if son%2!=0:
+    continue
+  else:
+    print(son)  
+
+
+ # 
+    
