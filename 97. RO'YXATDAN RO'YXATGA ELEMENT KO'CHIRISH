@@ -1,0 +1,10 @@
+# RO'YXATDAN RO'YXATGA ELEMENT KO'CHIRISH
+
+talabalar=['olim', 'vika', 'odil', 'mucci']
+baholanganlar={}
+while talabalar:
+  talaba=talabalar.pop()
+  baho=input(f"{talaba.title()}ning bahosini kiriting:")
+  print(f"{talaba.title()} baholandi")
+  baholanganlar[talaba]=baho
+print(baholanganlar)  
