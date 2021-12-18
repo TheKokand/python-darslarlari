@@ -1,0 +1,30 @@
+# for tsikli yordamida biz bo'sh lug'atlar ro'yxatini ham yaratib olishimiz mumkin:
+malibus=[]
+for n in range(10):
+  new_car={
+    'model':'malibu',
+    'rang':None,
+    'yil':2021,
+    'narh':None,
+    'km':0,
+    'korobka':'avto'
+  }
+  malibus.append(new_car)  
+# 3 ta mashinaga qizil rang beramiz:
+for malibu in malibus[:3]:
+    malibu['rang']='qizil'
+# Keyingi 3 tasiga esa qora:    
+for malibu in malibus[3:6]:
+    malibu['rang']='qora'
+# Oxirgi 4 ta avtoni qora, lekin korobkasini mexanika qilamiz:
+for malibu in malibus[6:10]:
+  malibu['rang']='oq'
+  malibu['korobka']='mexanika'
+# mashinalarning korobkasidan chiqqan holda narh belgilaymiz:  
+for malibu in malibus:
+  if malibu['korobka']=='avto':
+    malibu['narx']=40000
+  else:
+    malibu['narx']=35000  
+for malibu in malibus:
+  print(malibu)
