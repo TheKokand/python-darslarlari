@@ -1,0 +1,10 @@
+# Foydalanuvchidan yaxshi ko'rgan kitoblarini kiritishni so'rang. Foydalanuvchi stop so'zini yozishi bilan dasturni to'xtating
+savol="Yoqtirgan kitoblarizi kiriting \n"
+savol+="tugatish uchun 'stop' deb yozin "
+
+while True:
+  kitob=input(savol)
+  if kitob=='stop':
+    break
+  else:
+    print("Rahmat")  
