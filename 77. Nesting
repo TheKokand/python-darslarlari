@@ -1,0 +1,28 @@
+# LUG'AT ICHIDA LUG'AT
+hamkasblar={
+  'ali':{
+    'familiya':'aliyev',
+    'tyil':1995,
+    'malumot':'oliy',
+    'tillar':['pyhton','c++']
+  },
+  'olim':{
+    'familiya':'olimov',
+    'tyil':2000,
+    'malumot':'o\'rta',
+    'tillar':['php', 'js']
+  },
+  'vika':{
+    'familiya':'vikayev',
+    'tyil':2002,
+    'malumot':'maxsus',
+    'tillar':['swit', 'java']
+  }
+}
+for ism, info in hamkasblar.items():
+  print(f"{ism.title()} {info['familiya'].title()} "
+  f"{info['tyil']}-yilda to'g'ilgan, "
+  f"ma'lumoti {info['malumot']}.\n\
+  Quyidagi tillarni biladi")
+  for til in info['tillar']:
+    print(til.upper())
