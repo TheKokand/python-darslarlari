@@ -1,0 +1,15 @@
+# e-bozor uchun mahsulotlar va ularning narhlari lug'atini shakllantiruvchi dastur yozing. Foydalanuvchidan lug'atga bir nechta elementlar (mahsulot va uning narhi) kiritishni so'rang
+print("mahsulotlar va ularni narxini kiritng.")
+mahsulotlar={}
+n=1
+while True:
+  mahsulot=input(f"{n}-mahsulot: ")
+  narx=input(f"{mahsulot} narxi: ")
+  mahsulotlar[mahsulot]=int(narx)
+  n+=1
+  javob=input("davom ettirasizmi ha\yo'q ")
+  if javob!='ha':
+    break
+for mahsulot, narx in mahsulotlar.items():
+  print(f"{mahsulot} ning narxi {narx} so'm")
+print(mahsulotlar)  
