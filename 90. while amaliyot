@@ -1,0 +1,20 @@
+#Muzeyga chipta narhi foydalanuvchining yoshiga bog'liq: 7 dan yoshlarga - 2000 so'm, 7-18 gacha 3000 so'm, 18-65 gacha 10000 so'm, 65 dan kattalarga bepul. Shunday while tsikl yozingki, dastur foydalanuvchi yoshini so'rasin va chipta narhini chiqarsin. Foydalanuvchi exit yoki quit deb yozganda dastur to'xtasin (ikkita shartni ham tekshiring).
+yosh='Yoshingizni kiriting '
+yosh+="(tugatish uchun 'exit' yoki 'quit' ni kiriting) "
+while True:
+  qiymat=input(yosh)
+  if qiymat=='exit' or qiymat=='quit':
+    break
+  qiymat=int(qiymat)
+  if qiymat<7:
+    narh=2000
+  elif qiymat<=18:
+    narh=3000
+  elif qiymat<=65:
+    narh=10000
+  else:
+    narh=0   
+  if narh == 0:
+    print("Sizga chipta bepul")
+  else:
+    print(f"Sizga chipta narxi {narh} so'm")  
