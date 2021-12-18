@@ -1,0 +1,15 @@
+# Foydalanuvchidan buyurtma qabul qiluvchi dastur yozing. Mahsulotlar nomini birma-bir qabul qilib, yangi ro'yxatga joylang.
+print("Buyurtmalaringizni kiriting.")
+mahsulotlar=[]
+ishora=True
+n=1
+while ishora:
+  mahsulot=input(f"{n}-mahsulot nomi: ")
+  mahsulotlar.append(mahsulot)
+  kalit=input("davom ettirasizmi ha\yo'q ")
+  n+=1
+  if kalit!='ha':
+    ishora=False
+print("Siz bergan buyurtmalar")    
+for mahsulot in mahsulotlar:
+  print(mahsulot)    
