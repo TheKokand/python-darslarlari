@@ -1,0 +1,6 @@
+# RO'YXAT ELEMENTLARINI O'CHIRISH 
+
+cars=['bmw', 'toyota','tesla','audi', 'lucia', 'bmw', 'mazda', 'bmw']
+while 'bmw' in cars:
+  cars.remove('bmw')
+print(cars)  
