@@ -1,0 +1,10 @@
+# Oila a'zolaringiz (do'stlaringiz) dan 3 ta sevimli kino-seriali haqida so'rang. Do'stingiz ismi kalit, uning sevimli kinolarini esa ro'yxat ko'rinishida lug'artga saqlang. Natijani konsolga chiqaring.
+kinolar={
+  'ali':['cuqur', 'lalaled', 'osmaon'],
+  'olim':['ickarida', 'barbarossa', 'uc kurus'],
+  'mamur':['titanik', 'terminator', 'rokki']
+}
+for ism, kino in kinolar.items():
+  print(f"{ism} ning sevimli kinolari")
+  for n in kinolar:
+    print(n)
