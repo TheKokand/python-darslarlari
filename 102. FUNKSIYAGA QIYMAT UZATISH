@@ -1,0 +1,5 @@
+def salom_ber(ism):
+    """Foydalanuvchi ismini qabul qilib unga,
+    Salom beruvchi funksiya"""
+    print(f"Assalomu alaykum! Sevimli {ism.title()}!")
+salom_ber('muxlisa')    
