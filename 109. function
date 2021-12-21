@@ -1,0 +1,5 @@
+def salom_ber(ism):
+    """Salom beruvchi funksiya"""
+    print(f"Assalomu alaykum! {ism}")
+
+salom_ber('hasan')
