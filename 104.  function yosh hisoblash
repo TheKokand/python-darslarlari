@@ -1,0 +1,6 @@
+# FUNKSIYAGA BIR NECHTA ARGUMENT UZATISH
+# TO'G'RI TARTIBDA UZATISH
+def yosh_hisobla(ism, tugilgan_yili):
+  """Foydalanuvchi yoshini hisoblaydigan dastur"""
+  print(f"{ism.title()} {2021-tugilgan_yili} yoshda.")
+yosh_hisobla('muxlisa',2002)  
