@@ -1,0 +1,10 @@
+# Foydalanuvchidan ikkita son olib, ulardan kattasini konsolga chiqaruvchi funksiya yozing. Agar sonlar teng bo'lsa "Sonlar teng" degan xabarni chiqaring.
+def kotta_kicik(son1, son2):
+  """sonlarni katta kicikigini topish"""
+  if son1>son2:
+    print(f"{son1} {son2} dan kotta")
+  elif son1<son2:
+    print(f"{son2} {son1} dan kotta")
+  else:
+    print("Sonlar teng")
+kotta_kicik(52,85)        
