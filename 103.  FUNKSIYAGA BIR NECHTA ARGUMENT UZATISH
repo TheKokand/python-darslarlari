@@ -1,0 +1,7 @@
+# FUNKSIYAGA BIR NECHTA ARGUMENT UZATISH
+# TO'G'RI TARTIBDA UZATISH
+def toliq_ism(ism, familiya):
+  """Foydalanuvchi ismi jamalb ciqaruvchi funksiya"""
+  print(f"Foydalanuvchi ismi: {ism.title()}\n"
+        f"Foydalanuvchi familiyasi: {familiya.title()}")
+toliq_ism('muxlisa','sulaymonova')        
