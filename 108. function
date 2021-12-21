@@ -1,0 +1,5 @@
+def yosh_hisobla(tugilgan_yil, joriy_yil):
+    """Foydalanuvchi tug'ilgan yilidan uning yoshini hisoblaydi"""
+    print(f"Siz {joriy_yil-tugilgan_yil} yoshdasiz")
+
+yosh_hisobla(2002,2021)
