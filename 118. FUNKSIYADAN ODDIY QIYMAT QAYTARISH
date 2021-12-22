@@ -1,0 +1,8 @@
+# FUNKSIYADAN ODDIY QIYMAT QAYTARISH
+def toliq_ism_yasa(ism, familiya):
+  """Toliq ism qaytruvchi funksiya"""
+  toliq_ism=f"{ism} {familiya}"
+  return toliq_ism  # toliq ism qaytaruvchi return operatori
+talaba1=toliq_ism_yasa('olim','olimov')
+talaba2 = toliq_ism_yasa('hakim','olimov')
+print(f"Darsga kelmagan talabalar {talaba1.title()} va {talaba2.title()}")
