@@ -1,0 +1,11 @@
+# IXTIYORIY ARGUMENTLAR
+def toliq_ism_yasa(ism, familiya, sharifi=''):
+  """Toliq ism qaytaruvchi funksiya"""
+  if sharifi:
+    toliq_ism=f"{ism} {familiya} {sharifi}"
+  else:
+    toliq_ism=f"{ism} {familiya}"
+  return toliq_ism
+talaba1=toliq_ism_yasa('olim', 'olimov')# sharifi kritilmadi
+talaba2=toliq_ism_yasa('odil','odilov','odilovich')# sharifi kiritlid
+print(f"Darsga kelmagan talabalar {talaba1.title()} va {talaba2.title()}")
