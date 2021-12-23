@@ -1,0 +1,10 @@
+# FUNKSIYADAN RO'YXAT QAYTARAMIZ
+def oraliq(min,max,qadam=1):
+    sonlar=[] # bosh ruyhat
+    while min<max:
+      sonlar.append(min)
+      min+=qadam
+    return sonlar  
+print(oraliq(0,10,2))
+print(oraliq(10,21,5))
+
