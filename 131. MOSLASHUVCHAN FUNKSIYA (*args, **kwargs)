@@ -1,0 +1,11 @@
+# MOSLASHUVCHAN FUNKSIYA (*args, **kwargs)
+# *args USULI
+def summa(*sonlar):
+  """Kiritilgan sonlarni yigindisini hisoblaydigan funksiya"""
+  yigindi=0
+  for son in sonlar:
+    yigindi+=son
+  return yigindi
+print(summa(10,12))    
+print(summa(1,2,50,78,65))
+print(summa(1,2,3,4,5))
