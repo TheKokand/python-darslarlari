@@ -1,0 +1,31 @@
+# Foydanaluvchidan ismi, familiyasi, tug'ilgan yili, tug'ilgan joyi, email manzili va telefon raqamini qabul qilib, lug'at ko'rinishida qaytaruvchi funksiya yozing. Lug'atda foydalanuvchu yoshi ham bo'lsin. Ba'zi argumentlarni kiritishni ixtiyoriy qiling (masalan, tel.raqam, el.manzil)
+def mijoz_info(ism, familiya, tyil, tjoy, yoshi, telefon=None, email=''):
+  """Mijoz haqidagi ma'lumotlarni qaytaruvchi funksiya"""
+  mijoz={
+    'ism':ism,
+    'familiya':familiya,
+    'tyil':tyil,
+    'tjoy':tjoy,
+    'yoshi':yoshi,
+    'telefon':telefon,
+    'email':email
+  }
+  return mijoz
+print("Mijoz haqida ma'lumot kiriting.")
+mijozlar=[]
+while True:
+  ism=input("Ismi: ")
+  familiya=input("Familiyasi: ")
+  tyil=input("To'g'ilgan yili: ")
+  tjoy=input("To'g'ilgan joyi: ")
+  yoshi=input("Yoshini kiriting: ")
+  telefon=input("Telefon raqami: ")
+  email=input("Email: ")
+  mijozlar.append(mijoz_info(ism,familiya,tyil,tjoy,yoshi,telefon,email))
+  javob=input("Yana davom etasizmi ha\yo'q ")
+  if javob!='ha':
+    break
+print("Mijozlar: ")
+for mijoz in mijozlar:
+  print(f"{mijoz['ism'].title()} {mijoz['familiya'].title()},"
+  f"{mijoz['yoshi']} yoshda, telefoni: {mijoz['telefon']}")    
