@@ -1,0 +1,9 @@
+# MOSLASHUVCHAN FUNKSIYA
+# Istalgancha sonlarni qabul qilib, ularning ko'paytmasini qaytaruvchi funksiya yozing
+# *args
+def kupaytir(*sonlar):
+  kupaytma=1
+  for son in sonlar:
+    kupaytma*=son
+  return kupaytma    
+print(kupaytir(1,3,5,8,9,7))
