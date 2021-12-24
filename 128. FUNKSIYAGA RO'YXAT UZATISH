@@ -1,0 +1,12 @@
+# FUNKSIYAGA RO'YXAT UZATISH
+def baholar(ismlar):
+  baholar={}
+  while ismlar:
+    ism=ismlar.pop()
+    baho=input(f"Talaba {ism.title()}ning bahosini kiriting: ")
+    baholar[ism]=baho
+  return baholar
+talabalar=['ali','vali','odil','olim','mucci']
+baholar=baholar(talabalar[:])
+print(baholar)    
+print(talabalar)
